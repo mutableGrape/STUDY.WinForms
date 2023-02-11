@@ -79,7 +79,7 @@
             this.rectRadio.TabStop = true;
             this.rectRadio.Text = "Rectangle";
             this.rectRadio.UseVisualStyleBackColor = true;
-            this.rectRadio.CheckedChanged += new System.EventHandler(this.rectRadio_CheckedChanged);
+            this.rectRadio.CheckedChanged += new System.EventHandler(this.updateVisiblePanels);
             // 
             // rectPanel
             // 
@@ -232,7 +232,7 @@
             this.triRadio.TabIndex = 4;
             this.triRadio.Text = "Triangle";
             this.triRadio.UseVisualStyleBackColor = true;
-            this.triRadio.CheckedChanged += new System.EventHandler(this.triRadio_CheckedChanged);
+            this.triRadio.CheckedChanged += new System.EventHandler(this.updateVisiblePanels);
             // 
             // circRadio
             // 
@@ -243,7 +243,7 @@
             this.circRadio.TabIndex = 3;
             this.circRadio.Text = "Circle";
             this.circRadio.UseVisualStyleBackColor = true;
-            this.circRadio.CheckedChanged += new System.EventHandler(this.circRadio_CheckedChanged);
+            this.circRadio.CheckedChanged += new System.EventHandler(this.updateVisiblePanels);
             // 
             // label10
             // 

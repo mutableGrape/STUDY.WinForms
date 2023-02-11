@@ -12,7 +12,6 @@ namespace WinForm2
         
         public static void Main(string[] args)
         {
-            List<User> users = new List<User>();
             var form = new AreaCalculator();
             Application.Run(form);
         }

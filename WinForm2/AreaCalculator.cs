@@ -17,26 +17,11 @@ namespace WinForm2
             InitializeComponent();
         }
 
-        public void updateVisiblePanels()
+        private void updateVisiblePanels(object sender, EventArgs e)
         {
             rectPanel.Visible = rectRadio.Checked;
             circPanel.Visible = circRadio.Checked;
             triPanel.Visible = triRadio.Checked;
-        }
-
-        private void rectRadio_CheckedChanged(object sender, EventArgs e)
-        {
-            updateVisiblePanels();
-        }
-
-        private void circRadio_CheckedChanged(object sender, EventArgs e)
-        {
-            updateVisiblePanels();
-        }
-
-        private void triRadio_CheckedChanged(object sender, EventArgs e)
-        {
-            updateVisiblePanels();
         }
 
         private void button1_Click(object sender, EventArgs e)
